@@ -1,2 +1,4 @@
 ## SkillNER
-> A Named Entity Recognition system that extracts Soft Skills from text.
+
+[logo.png](logo.png)
+A Named Entity Recognition system that extracts Soft Skills from text.
