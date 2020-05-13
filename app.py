@@ -16,7 +16,7 @@ HTML_WRAPPER = """<div style="overflow-x: auto; border: 1px solid #e6e9ef; borde
 def load_model(name):
     return spacy.load(name)
 
-@st.cache(ignore_hash=True)
+@st.cache(allow_output_mutation=True)
 def process_text(model_name, text):
     nlp = load_model(model_name)
     return nlp(text)
