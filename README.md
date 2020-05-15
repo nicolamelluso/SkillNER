@@ -1,2 +1,7 @@
-## Deploying your Streamlit Application
-> A guide on creating and deploying your streamlit app to Heroku 
+## SkillNER
+
+![logo.png](logo.png)
+
+A Named Entity Recognition system that extracts Soft Skills from text.
+
+Try the demo [here](https://mysterious-hollows-20657.herokuapp.com/)
